@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Se utiliza para el responsive, pero no significa que con esto el sitio ya sea responsivo-->
     <title>Juegos que juego</title>
+    <link rel="stylesheet" href="style.css"><!--Metodo de insercion externo-->
+    <!--Enlazar CSS internamente-->
+    <style>
+        span {
+            color: brown;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> Juegos que juego </h1>
+    <!-- Solo debe haber un h1 -->
+    <h1 style="color:gold" ;> Juegos que juego </h1><!--Enlazar a CSS en linea-->
     <hr>
     <h2> Resident Evil 2 Remake </h2>
     <p> El mejor remake de un videojuego de todos los tiempos
@@ -18,7 +26,21 @@
         architecto nulla quod fuga.</p><!--Elemento en bloque que ocupa todo el ancho disponible-->
     <span>Hola</span> <br><!--Elemento en linea que solo ocupa el espacio necesario para exisitir-->
     <span>Hola</span> <br><!--br salto de linea-->
-    <span>Hola</span> <br><!--Span es un contenedor generico en linea-->
+    <span id="lorem-resaltado"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint iure temporibus quidem
+        quod eligendi molestiae nisi fuga, dicta beatae harum dolores veniam maxime provident incidunt quam
+        reprehenderit. Officia, quae id!
+        Fuga necessitatibus sequi rerum ipsam doloribus dolorem aperiam reprehenderit quos odio cum laboriosam ducimus
+        quas blanditiis dolores, id sint porro, harum voluptatem ex veritatis consequatur quisquam ab esse? Rerum,
+        exercitationem.
+        Quibusdam eveniet reiciendis deserunt sapiente eius voluptate neque incidunt blanditiis officiis ducimus
+        voluptatibus, facere, provident quas cum vitae ipsam nemo dolorum odio sit. Totam fuga sunt, temporibus alias
+        sed quod!
+        Culpa eveniet rem dicta odio commodi. Similique pariatur voluptas itaque neque corporis, vitae recusandae
+        aliquam deleniti tempore molestiae dolorum dolor omnis praesentium explicabo cum adipisci in asperiores sequi
+        mollitia officia.
+        Beatae illo nihil distinctio alias neque. Quasi ratione delectus esse ut, provident itaque nobis dicta. Non
+        voluptatem sit, porro repudiandae doloremque laboriosam. Esse perspiciatis quibusdam quam, id magni quasi
+        necessitatibus. </span><!--Span es un contenedor generico en linea-->
     <div><!-- Este es contenedor generico en bloque, utilizado para dividir o agrupar secciones-->
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptate commodi similique minus, suscipit
         temporibus cupiditate dolores quae soluta veritatis natus consequuntur enim dolorum doloribus dolorem iste fuga
@@ -34,7 +56,7 @@
         <li> Gunnm </li>
         <li> Thunder 3 </li>
         <li> Ina ie </li>
-        <ol><!--Lista ordenada-->
+        <ol class="tops"><!--Lista ordenada-->
             <li> Gantz </li>
             <li> Medaka Box </li>
             <li> Berserk </li>
@@ -48,11 +70,20 @@
         <dt> Madona: </dt><!--Termino a definir-->
         <dd> La virgen Maria </dd><!--Definicion-->
     </dl>
-    
-    <img src="https://images.squarespace-cdn.com/content/v1/642fe9d50ff3d476932fc101/5ebdd4e7-09bb-40d6-bca6-7ab617e000ea/gantz8.jpg?format=2500w" alt="Panel del manga Gantz" width="500" height="300"><!--Se debe ser descriptivo, una buena paractica es poner este texto descriptivo-->
 
-    <img src="images/Gundam.jpg"
-        alt="Ilustracion de Gundam en alta resolucion" width="500" height="300"><!--Se debe ser descriptivo, una buena paractica es poner este texto descriptivo-->
+    <h4> Nuevo top </h4>
+    <ul class="tops">
+        <li>TU</li>
+        <li>YO</li>
+        <li>EL</li>
+        <li>NO</li>
+        <li>SI</li>
+    </ul>
+
+    <img src="https://images.squarespace-cdn.com/content/v1/642fe9d50ff3d476932fc101/5ebdd4e7-09bb-40d6-bca6-7ab617e000ea/gantz8.jpg?format=2500w"
+        alt="Panel del manga Gantz" id="Gantz"><!--Se debe ser descriptivo, una buena paractica es poner este texto descriptivo-->
+
+    <img src="images/Gundam.jpg" alt="Ilustracion de Gundam en alta resolucion" id="Gundam"><!--Se debe ser descriptivo, una buena paractica es poner este texto descriptivo-->
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+/* Este es un comentario en CSS */
+
+/* Selector universal: Selecciona todos los elementos */
+* {
+    background-color: azure;
+}
+
+/* Selectores de tipo o etiqueta: Seleccionar los elementos con ese nombre */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(238, 10, 120);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: #3e05ce;
+}
+
+/* Selector de clase: Las clases si se comparten entre elementos */
+.tops {
+    color: rgb(195, 240, 13);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+/* Selector de ID: Seleccionan un elemento en especifico y no se comparten*/
+#lorem-resaltado {
+    color: rgb(138, 13, 240);
+    font-size: 50px;
+}
+
+/* Selector width y height */
+#Gantz {
+    width: 500;
+    height: 500;
+}
+
+
